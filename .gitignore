@@ -1,0 +1,8 @@
+.venv/
+.upstream/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+artifacts/**/*.sqlite*
+artifacts/**/trace.json
+artifacts/**/capture.log

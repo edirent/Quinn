@@ -1,0 +1,14 @@
+% Synthetic CPU diagnostic. No GPU measurement.
+\begin{tabular}{lrr}
+\hline
+Method & Modeled cost (ms) & Advantage RMSE [95\% interval] \\
+\hline
+B3 Fixed paired & 137.7 & 0.279 [0.174, 0.404] \\
+B4 Reward variance & 137.5 & 0.322 [0.199, 0.465] \\
+B6 Quinn & 137.6 & 0.324 [0.196, 0.473] \\
+Quinn-NoPairing & 137.5 & 0.406 [0.279, 0.548] \\
+Quinn-NoCostAwareness & 137.6 & 0.315 [0.195, 0.452] \\
+Quinn-NoCovariance & 137.5 & 0.320 [0.193, 0.472] \\
+Quinn-NoDeadline & 137.6 & 0.324 [0.193, 0.471] \\
+\hline
+\end{tabular}

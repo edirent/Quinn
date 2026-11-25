@@ -1,0 +1,15 @@
+kind: capture
+upstream: .upstream/kernelbench
+ledger: artifacts/manifests/gpu_budget.sqlite
+mode: m2
+session: evaluation-01
+condition: operator-declared-isolated
+seed: 34017
+tasks: [L1-008, L1-022, L1-024, L1-040, L1-049, L1-087, L2-040]
+blocks: 64
+warmup: 40
+correctness_trials: 5
+launches_per_event: 8
+telemetry_every: 16
+order: random
+timeout_s: 240

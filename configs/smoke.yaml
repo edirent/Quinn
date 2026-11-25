@@ -1,0 +1,17 @@
+kind: capture
+upstream: .upstream/kernelbench
+ledger: artifacts/manifests/gpu_budget.sqlite
+mode: m2
+session: smoke-01
+condition: functional-validation
+seed: 100
+blocks: 4
+warmup: 5
+correctness_trials: 3
+launches_per_event: 4
+telemetry_every: 0
+order: random
+timeout_s: 30
+tasks: [L1-019]
+variants: [triton-128]
+require_correct: true

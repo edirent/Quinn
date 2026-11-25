@@ -1,0 +1,8 @@
+kind: synthetic
+seed: 34017
+groups: 36
+blocks: 96
+budgets: [8, 16, 32]
+initial: 4
+reward: log
+deadline_scale: 1.15

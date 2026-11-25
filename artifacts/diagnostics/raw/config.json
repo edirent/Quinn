@@ -1,0 +1,13 @@
+{
+  "blocks": 96,
+  "budgets": [
+    8,
+    16,
+    32
+  ],
+  "deadline_scale": 1.15,
+  "groups": 36,
+  "initial": 4,
+  "reward": "log",
+  "seed": 34017
+}

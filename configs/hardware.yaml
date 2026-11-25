@@ -1,0 +1,5 @@
+required_model: NVIDIA A100
+maximum_physical_devices: 2
+allow_mig: false
+default_gpu_hour_budget: 96
+clock_policy: preserve_and_record

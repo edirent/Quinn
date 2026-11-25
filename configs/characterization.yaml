@@ -1,0 +1,14 @@
+kind: capture
+upstream: .upstream/kernelbench
+ledger: artifacts/manifests/gpu_budget.sqlite
+mode: gold
+session: isolated-reference-01
+condition: operator-declared-isolated
+seed: 71931
+blocks: 256
+warmup: 60
+correctness_trials: 5
+launches_per_event: 8
+telemetry_every: 32
+order: random
+timeout_s: 360

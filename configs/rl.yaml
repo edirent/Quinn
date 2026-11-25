@@ -1,0 +1,6 @@
+kind: online_rl
+steps_feasibility: 10
+steps_initial: 100
+group_size: 4
+seeds: [34017, 71931, 127727]
+requires: [gate_a, gate_b, gate_c, restricted_gpu_execution, natural_rollout_provenance, trainer_integration]
